@@ -1,0 +1,17 @@
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+
+@media screen and (min-width: 992px) {
+  .column {
+    width: 100%;
+  }
+}
